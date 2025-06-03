@@ -13,15 +13,12 @@ npm install
 ### 2 Configurar variables de entorno
 Cuenta con un archivo `.env` con las siguientes variables:
 ```
-MONGO_URI=mongodb+srv://kevin:mDiEIDmXi7L9CqE6@votaciones.oaczn.mongodb.net/votaciones
+MONGO_URI=<conexion-a-mongo>
 PORT=5000
 ```
 
 ### 3 Ejecutar el servidor
-```bash
-npm start
-```
-o en desarrollo con nodemon:
+nodemon:
 ```bash
 npm run dev
 ```
